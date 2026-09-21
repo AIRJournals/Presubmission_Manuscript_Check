@@ -5,7 +5,7 @@ An agent skill that takes a finished manuscript to a prepared submission at [AIR
 ## Install
 
 ```bash
-npx skills add bond-james-beep/air-journals-skill
+npx skills add AIRJournals/Presubmission_Manuscript_Check
 ```
 
 ## What it does
@@ -13,7 +13,7 @@ npx skills add bond-james-beep/air-journals-skill
 - Matches a manuscript to one of AIR Journals' six journals (engineering and technology, natural sciences, life sciences and medicine, social sciences and humanities, mathematics and computational sciences, interdisciplinary research)
 - Quotes the exact fees: $10 first-submission fee, $140 only if accepted, plus the country waiver through 31 December 2026
 - Runs the submission preflight: DOCX, official template, formatting, references, ORCID
-- Self-scores the draft against the public 5-category rubric printed in every published evaluation report (citation integrity, plagiarism screen, quality score out of 100), so the author can fix the weak categories before submitting
+- Self-scores the draft against the public 5-category rubric printed in every published evaluation report (citation integrity, plagiarism screen, quality score out of 100), so the author can enhance the weak categories before submitting
 - Explains the review model: evaluation plus scholarly supervision, a full evaluation report with every paper, Crossref DOI, CC BY, decisions usually within days
 - States the honest limit: no acceptance guarantee
 
