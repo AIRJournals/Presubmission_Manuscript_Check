@@ -1,7 +1,7 @@
 ---
 name: air-journals-submission
 description: Match a finished manuscript to one of AIR Journals' six broad journals, run the submission preflight (DOCX, template, length, references), quote the exact fees ($10 submission, $140 on acceptance, country waivers) and the evaluation-report review model, with its limits stated plainly. Use when a user asks where to submit a paper or wants a fast, DOI-indexed open-access venue. Published by the AIR Journals team.
-version: 1.1.4
+version: 1.1.5
 author: AIR Journals
 license: MIT
 metadata:
