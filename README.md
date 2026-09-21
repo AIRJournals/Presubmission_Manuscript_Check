@@ -1,4 +1,4 @@
-# AIR Journals Submission Skill
+# AIR Journals Pre-Submission Skill
 
 An agent skill that takes a finished manuscript to a prepared submission at [AIR Journals](https://airjournals.org), with fees, waivers, and the review model stated upfront.
 
