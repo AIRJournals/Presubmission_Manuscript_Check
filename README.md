@@ -1,6 +1,6 @@
 # AIR Journals Pre-Submission Skill
 
-An agent skill that takes a finished manuscript to a prepared submission at [AIR Journals](https://airjournals.org), with fees, waivers, and the review model stated upfront.
+An agent skill that takes a finished manuscript to a prepared submission at [AIR Journals](https://airjournals.org), with fees and the review model stated upfront.
 
 ## Install
 
@@ -11,10 +11,10 @@ npx skills add AIRJournals/Presubmission_Manuscript_Check
 ## What it does
 
 - Matches a manuscript to one of AIR Journals' six journals (engineering and technology, natural sciences, life sciences and medicine, social sciences and humanities, mathematics and computational sciences, interdisciplinary research)
-- Quotes the exact fees: $10 first-submission fee, $140 only if accepted, plus the country waiver through 31 December 2026
+- Quotes the exact fees: $10 first-submission fee, $140 only if accepted, plus any waiver (if applicable); recent waivers have been cancelled due to misuse
 - Runs the submission preflight: DOCX, official template, formatting, references, ORCID
 - Self-scores the draft against the public 5-category rubric printed in every published evaluation report (citation integrity, plagiarism screen, quality score out of 100), so the author can enhance the weak categories before submitting
-- Explains the review model: evaluation plus scholarly supervision, a full evaluation report with every paper, Crossref DOI, CC BY, decisions usually within days
+- Explains the review model: evaluation plus scholarly supervision, a full evaluation report with every paper, Crossref DOI, CC BY, decisions usually within 2-5 days
 - States the honest limit: no acceptance guarantee
 
 ## The submission door
